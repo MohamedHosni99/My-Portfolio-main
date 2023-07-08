@@ -1,0 +1,11 @@
+
+.link{
+    transition: .3s;
+    font-weight: bold;
+}
+.link:hover{
+    background-color:var(--main-color);
+    border-radius: 50%;
+    color: var( --bg-black);
+
+}

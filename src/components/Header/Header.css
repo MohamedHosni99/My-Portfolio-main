@@ -1,0 +1,87 @@
+header{
+  background-color: var(--bg-color);
+}
+
+
+
+/* ------------------------ Logo Style---------------------------- */
+
+/* === removing default button style ===*/
+.btn-logo{
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+  
+  /* button styling */
+  .btn-logo {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: var(--main-color);
+    letter-spacing: 3px;
+    text-decoration: none;
+    /* font-size: 1.5rem; */
+    font-family: "Arial";
+    position: relative;
+    text-transform:uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+    transition: .5s;
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .btn-logo:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+
+
+  /* ------------------------ Contact Button---------------------------- */
+
+  .btn-contact {
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--main-color);
+    background: linear-gradient(to right, rgba(22, 137, 214, 0.1) 1%, transparent 40%,transparent 60% , rgba(41, 13, 197, 0.1) 100%);
+    color: var(--main-color);
+    box-shadow: inset 0 0 10px rgba(27, 125, 253, 0.4), 0 0 9px 3px rgba(64, 82, 184, 0.1);
+  }
+  
+  .btn-contact:hover {
+    color: var(--main-color);
+    box-shadow: inset 0 0 10px rgba(27, 125, 253, 0.4), 0 0 9px 3px rgba(64, 82, 184, 0.1);
+  }
+  
+  .btn-contact:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(27, 125, 253, 0.4) 40%,rgba(27, 125, 253, 0.4) 60% , transparent 100%);
+  }
+  
+  .btn-contact:hover:before {
+    transform: translateX(15em);
+  }
