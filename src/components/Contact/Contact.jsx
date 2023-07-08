@@ -52,7 +52,7 @@ const Contact = () => {
             <FaEnvelope className="mr-2 w-[25px] h-[25px]" />
             <span>mohamed.hosni9997@gmail.com</span>
           </a>
-          <a href="tel:tel:+201142941401" className="contact-info mt-5 sm:mt-0 flex items-center flex-1 p-4 font-bold text-slate-300 rounded-2xl">
+          <a href="tel:+201142941401" className="contact-info mt-5 sm:mt-0 flex items-center flex-1 p-4 font-bold text-slate-300 rounded-2xl">
             <FaWhatsapp className="mr-1.5 w-[25px] h-[25px]" />
             <span>01142941401</span>
           </a>
