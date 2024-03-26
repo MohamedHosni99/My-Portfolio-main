@@ -7,6 +7,21 @@ import portfolio_6 from './assets/portfolio_6.png';
 import portfolio_7 from './assets/portfolio_7.png';
 import portfolio_8 from './assets/portfolio_8.png';
 
+import react from './assets/React .png';
+import Redux from './assets/Redux.png';
+import Bootsrap from './assets/Bootstrap .png';
+import Git_Hub from './assets/Git_Hub.png';
+import Tailwind from './assets/Tailwind.png';
+import HTML from './assets/HTML.png';
+import CSS from './assets/css.png';
+import JS from './assets/JS.png'
+import Sass from './assets/Sass.png';
+import Vs_Code from './assets/VS.png';
+import Next from './assets/Next js.png';
+import Vue from './assets/VueJs.png';
+import Mui from './assets/MUI.png';
+import Figma from './assets/Figma.png';
+
 
 
 
@@ -149,3 +164,23 @@ export const HTML_CSS_JSPortfolio = [
     },
 
 ];
+
+
+export const skillsData = [
+    { name: 'HTML', image: HTML },
+    { name: 'CSS', image: CSS },
+    { name: 'JavaScript', image:JS },
+    { name: 'Sass', image: Sass},
+    { name: 'Bootstrap', image: Bootsrap },
+    { name: 'Tailwind CSS', image: Tailwind },
+    { name: 'Mui', image: Mui },
+    { name: 'React', image:  react},
+    { name: 'Redux', image: Redux },
+    { name: 'Next', image: Next },
+    { name: 'Vue', image: Vue },
+    { name: 'Figma', image: Figma },
+    { name: 'GitHub', image: Git_Hub },
+    { name: 'VS Code', image: Vs_Code }
+];
+
+
