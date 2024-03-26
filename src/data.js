@@ -14,15 +14,13 @@ import Git_Hub from './assets/Git_Hub.png';
 import Tailwind from './assets/Tailwind.png';
 import HTML from './assets/HTML.png';
 import CSS from './assets/css.png';
-import JS from './assets/JS.png';
 import Sass from './assets/Sass.png';
 import Vs_Code from './assets/VS.png';
 import Next from './assets/Next js.png';
 import Vue from './assets/VueJs.png';
 import Mui from './assets/MUI.png';
 import Figma from './assets/Figma.png';
-
-
+import Js from './assets/JS.png';
 
 
 
