@@ -16,11 +16,12 @@ import HTML from './assets/HTML.png';
 import CSS from './assets/css.png';
 import Sass from './assets/Sass.png';
 import Vs_Code from './assets/VS.png';
-import Next from './assets/Next js.png';
+import Next from './assets/Nextjs.png';
 import Vue from './assets/VueJs.png';
 import Mui from './assets/MUI.png';
 import Figma from './assets/Figma.png';
 import Js from './assets/JS.png';
+
 
 
 
@@ -167,7 +168,7 @@ export const HTML_CSS_JSPortfolio = [
 export const skillsData = [
     { name: 'HTML', image: HTML },
     { name: 'CSS', image: CSS },
-    { name: 'JavaScript', image:JS },
+    { name: 'JavaScript', image: Js },
     { name: 'Sass', image: Sass},
     { name: 'Bootstrap', image: Bootsrap },
     { name: 'Tailwind CSS', image: Tailwind },
