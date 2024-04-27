@@ -11,7 +11,6 @@ import portfolio_10 from './assets/portfolio_10.png';
 import portfolio_11 from './assets/portfolio_11.png';
 import portfolio_12 from './assets/portfolio_12.png';
 import portfolio_13 from './assets/portfolio_13.png';
-import portfolio_14 from './assets/portfolio_14.png';
 
 import react from './assets/React .png';
 import Redux from './assets/Redux.png';
@@ -140,14 +139,7 @@ export const AllPortfolio = [
             Category:"Next.js"
         },
 
-        {
-            id: 14,
-            title: "Brainwave",
-            img:portfolio_14,
-            link:"",
-            git_link:"https://github.com/MohamedHosni99/Brainwave",
-            Category:"React.js"
-        },
+       
         
 
     
