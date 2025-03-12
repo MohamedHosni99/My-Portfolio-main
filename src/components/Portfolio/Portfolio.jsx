@@ -9,7 +9,7 @@ import { FaGithub, FaLink } from 'react-icons/fa';
 const Projects = () => {
   const [selected, setSelected] = useState("ALL");
   const [data, setData] = useState(AllPortfolio);
-  const categories = ["ALL", "HTML&CSS", "HTML&CSS&JS", "HTML&SASS&JS", "BootStrap", "Tailwindcss", "Vue.js", "React.js", "Next.js"];
+  const categories = ["ALL", "HTML&CSS", "HTML&CSS&JS", "HTML&SASS&JS", "BootStrap", "Vue.js", "React.js", "Next.js"];
 
   useEffect(() => {
     if (selected === "ALL") {
