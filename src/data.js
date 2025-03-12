@@ -6,7 +6,6 @@ import portfolio_5 from './assets/portfolio_5.png';
 import portfolio_6 from './assets/portfolio_6.png';
 import portfolio_7 from './assets/portfolio_7.png';
 import portfolio_8 from './assets/portfolio_8.png';
-import portfolio_9 from './assets/portfolio_9.png';
 import portfolio_10 from './assets/portfolio_10.png';
 import portfolio_11 from './assets/portfolio_11.png';
 import portfolio_12 from './assets/portfolio_12.png';
@@ -97,14 +96,6 @@ export const AllPortfolio = [
             link:"https://mohamedhosni99.github.io/Travel-Project-HTML-SASS-JS-/",
             git_link:"https://github.com/MohamedHosni99/Travel-Project-HTML-SASS-JS-",
             Category:"HTML&SASS&JS"
-        },
-        {
-            id: 9,
-            title: "Acme-Rockets Website",
-            img:portfolio_9,
-            link:"https://acme-rockets-lfar.onrender.com/",
-            git_link:"https://github.com/MohamedHosni99/Acme-Rocket-TailwindCSS",
-            Category:"Tailwindcss"
         },
         {
             id: 10,
